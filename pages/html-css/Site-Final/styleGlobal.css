@@ -1,0 +1,480 @@
+/*Background des pages*/
+#bodyacc{
+  background: url("cityFlower.jpg"),no-repeat center center fixed;
+  background-size: cover;
+}
+#bodyprod{
+  background-image: url("patternMosa6.jpg");
+}
+#bodynous{
+  background-image: url("patternMosa6.jpg");
+}
+#bodycontact{
+    background-image: url("wood1.jpg");
+}
+body{
+  background-color: #DDC1DD;
+
+}
+/*Logo*/
+#logo{
+  margin-left: 75%;
+  position: absolute;;
+  float: right;
+}
+/*Navbar*/
+#Navbar{
+  width: 900px;
+  height: 75px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Acceuil{
+  position: relative;
+  margin-left: 15%;
+  opacity: 0.75;
+  width: 100px;
+  height: 100px;
+  border: 0px;
+  background-color: #EED2EE;
+  border-radius: 50%;
+  display: inline-block;
+  text-align: left;
+  padding: 5px;
+}
+.lien{
+  color: #A5435C;
+  list-style-type: none;
+  font-variant: small-caps;
+  font-size: 34;
+  font-family: bkobiii
+}
+a{
+  text-decoration: none;
+}
+#Produits{
+  opacity: 0.75;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 0px;
+  background-color: #EED2EE;
+  border-radius: 50%;
+  color: #A5435C;
+  font-size: 15;
+  margin:auto;
+  position: relative;
+  padding: 5px;
+}
+#Nous{
+  opacity: 0.75;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 0px;
+  background-color: #EED2EE;
+  border-radius: 50%;
+  color: #A5435C;
+  font-size: 15
+  margin: auto;
+  position: relative;
+  padding: 5px;
+}
+#Contact{
+  opacity: 0.75;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 0px;
+  background-color: #EED2EE;
+  border-radius: 50%;
+  color: #A5435C;
+  font-size: 15
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 5px;
+}
+#Horaire{
+  opacity: 0.75;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  border: 0px;
+  background-color: #EED2EE;
+  border-radius: 50%;
+  color: #A5435C;
+  font-size: 15
+  margin: auto;
+  position: relative;
+  padding: 5px;
+}
+/*Texte presentation*/
+h3{
+  color: #FFB6C1;
+  font-size: 35;
+  font-family: BEAR HUGS BY RATTICSASSIN;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+#text{
+  width: 750px;
+  height: 350px;
+  border: 2px;
+  border-style: solid;
+  border-color: lightgray;
+  position: relative;
+  margin-left: auto;
+  margin-top: 10%;
+  margin-right: auto;
+
+  top: 50px;
+  right: 50;
+  bottom: 50px;
+  left: 0;
+}
+#p1{
+  color: #00FF00;
+  font-size: 20;
+  font-family: BEAR HUGS BY RATTICSASSIN;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+#p2{
+  color: #00FF00;
+  font-size: 20;
+  font-family: BEAR HUGS BY RATTICSASSIN;
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-right: 100px;
+}
+#btnproduits{
+  width: 250px;
+  height: 50px;
+  background-color: #EED2EE;
+  opacity: 0.5;
+  margin: auto;
+  margin-top: 25px
+}
+#p3{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25;
+  color: #A5435C;
+}
+/* Centrage produits */
+#prods{
+  width: 1300px;
+  height: 1150px;
+  margin: auto;
+}
+/*Présentation des produits */
+#fleur1{
+  width: 250px;
+  height: 1125px;
+  border-style: groove;
+  border-top: 1px;
+  border-left: 1px;
+  position: relative;
+  margin-top: 25%;
+  display: inline-block;
+  margin-right: 15px;
+  margin-left: 75px
+}
+h5{
+  margin-top: 15%;
+  float: left;
+  position: absolute;
+  font-size: 30px;
+  color: #A5435C;
+}
+#imgfleur1{
+  width: 225px;
+  height: 225px;
+  background-image: url("flower6.jpg");
+  background-size: cover;
+  margin-top: 25px;
+  position:absolute;
+}
+.Nomf{
+  margin-top: 250px;
+  font-size: 18;
+  font-family: Good Night;
+  margin-left: 15px;
+}
+.Saison{
+  font-size: 16;
+  font-family: Good Night;
+  margin-left: 15px;
+}
+.Description{
+  font-size: 16;
+  font-family: Good Night;
+  margin-left: 15px;
+}
+#fleur2{
+  width: 250px;
+  height: 1125px;
+  border-style: groove;
+  border-top: 1px;
+  border-right: 1px;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 25%;
+  background-color: grey;
+  filter: opacity(0.75);
+  display: inline-block;
+}
+#imgfleur2{
+  width: 225px;
+  height: 225px;
+  background-image: url("flower2.jpg");
+  background-size: cover;
+  margin-top: 25px;
+  position:absolute;
+  float: left;
+  margin-left: 15px
+}
+#fleur3{
+  width: 250px;
+  height: 1125px;
+  border-style: groove;
+  border-top: 1px;
+  border-right: 1px;
+  position: relative;
+  margin-left: 30px;
+  display: inline-block;
+  margin-top: 25%
+}
+#imgfleur3{
+  width: 225px;
+  height: 225px;
+  background-image: url("flower9.jpg");
+  background-size: cover;
+  margin-top: 25px;
+  position:absolute;
+  float: left;
+  margin-left: 15px
+}
+#fleur4{
+  width: 250px;
+  height: 1125px;
+  border-style: groove;
+  border-top: 1px;
+  border-right: 1px;
+  position: relative;
+  margin-left: 30px;
+  display: inline-block;
+  margin-top: 25%;
+  margin-right: 75px
+}
+#imgfleur4{
+  width: 225px;
+  height: 225px;
+  background-image: url("flower7.jpg");
+  background-size: cover;
+  margin-top: 25px;
+  position:absolute;
+  float: left;
+  margin-left: 15px
+}
+/*Nous*/
+h1{
+  margin-top: 10%;
+  float: left;
+  position: relative;
+  font-size: 30px;
+  color: #A5435C;
+  margin-left: 50px
+}
+/*Postion partie "Une boutique..."*/
+/*#positionpresention{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: auto;
+  margin-left: 50px;
+}*/
+img{
+  width: 250px;
+  height: 250px;
+}
+#Uneboutique{
+  position: static;
+  color: #A5435C;
+  font-size: 20px;
+  margin-top: -15%;
+}
+#imgMagasin{
+  width: 15%;
+  height: 250px;
+  margin-top: 10%
+}
+#p4{
+  position: relative;
+  margin-left:10px;
+  font-family: Bungasai;
+  margin-top: 5%;
+}
+#p5{
+  position: relative;
+  font-family: Bungasai;
+  margin-left: 10px;
+}
+#Rose{
+  margin-right: 15px;
+  margin-top: 5%;
+  color: #A5435C;
+  font-size: 20px;
+  float: right;
+}
+#imgRose{
+  width: 250px;
+  height: 250px;
+  background-image: url("rose1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: right;
+  position: relative;
+  margin-top: 5%
+}
+#p6{
+  position: relative;
+  font-family: Bungasai;
+  margin-right: 150px;
+  margin-top: 10%;
+  margin-left: 50px
+}
+#p7{
+  position: relative;
+  font-family: Bungasai;
+  margin-right: 150px;
+  margin-left: 50px;
+}
+#positionh2{
+  width: 75%;
+  height: 750px;
+  margin-left: 20%
+}
+/* Contact */
+#titrecontact{
+  position: absolute;
+  margin-top: 15%;
+  color: #DEB887;
+}
+ul{
+  color: #DEB887;
+  font-size: 35px;
+  position: absolute;
+  margin-top: 20%;
+  margin-left:50%;
+  list-style-type:none;
+  line-height: 75px
+}
+#Formulaire{
+  width: 550px;
+  height: 675px;
+  border-top: 0px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-style: solid;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 20px;
+  border-color: #DEB887;
+  margin-bottom: 15px
+}
+/* Formulaire */
+.input{
+  margin-left: 15px;
+  width: 350px;
+  background-color: #EED2EE;
+  opacity: 0.75;
+  border-color: #A5435C;
+  border: 25;
+}
+#btndiv{
+  height: 35px;
+  width: 100px;
+  background-color: transparent;;
+  margin-left: 75%;
+}
+#btntext{
+  color: #DEB887;
+  font-size: 20;
+  font-weight: bold;
+}
+#imgfin{
+  width: 450px;
+  height: 450px;
+  background-image:url("flower1.jpg");
+  position:absolute;
+  background-size: cover;
+  margin-top: 45%;
+  margin-left: 55%;
+  border-radius: 50%
+}
+.Nom{
+  color: #DEB887;
+  font-size: 20px;
+  margin-left: 15px;
+  font-family: kinnari
+}
+/*Horaires*/
+#Horairetab{
+  width: 750px;
+  height: 400px;
+  margin-top: 15%;
+  margin-left: 20%;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  position: absolute;
+  border-radius: 50%;
+  border-color: #A5435C;
+}
+#listehoraire{
+  color: #A5435C;
+  position: absolute;
+  margin-left: 7%;
+  margin-top: 15%;
+  font-size: 25;
+  line-height: 50px;
+  font-family: Good night;
+  font-weight: bold;
+  font-style: italic;
+}
+/* Info produit */
+.info{
+  color: #A5435C;
+  font-variant: small-caps;
+  font-size: 16;
+  float: right;
+  opacity: 0.75;
+}
+#imgGigantea{
+  width: 300px;
+  height: 300px;
+  background-image: url("flower6.jpg");
+  background-size: cover;
+  margin-left: 35%;
+  margin-top: 15%;
+  position: absolute;
+}
+.infoGigantea{
+  position: absolute;
+  margin-top: 40%;
+  line-height: 50px;
+  font-family: kinnari;
+  font-size: 20px;
+  color: #A5435C;
+}
+#miseenpage{
+  width: 500px;
+  height: 500px;
+
+}

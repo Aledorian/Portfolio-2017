@@ -1,0 +1,30 @@
+body{
+  background-color: black
+}
+#outterspace{
+  width: 1250px;
+  height: 565px;
+  background-image: url("fond.jpg");
+  background-size: cover;
+  margin: auto;
+  margin-top: 50px;
+}
+#spacecraft{
+  width: 60px;
+  height: 60px;
+  position: relative;
+}
+#spacecraftshape{
+  width: 90px;
+  height: 90px;
+  position:absolute;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  border-radius: 50%;
+  left: -20px;
+  top: -15px;
+  background-color: magenta;
+  opacity: 0.40;
+}

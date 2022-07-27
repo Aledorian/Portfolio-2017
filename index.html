@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html" />
+    <meta name="description" content="Portfolio A.Legrand apprenti webdeveleopp" />
+    <title>Portfolio 2.0</title>
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" title="sheet">
+    <link rel="stylesheet" href="css/Bootstrap-Portfolio-Dark.css" id="lightT" media="screen" title="sheet">
+    <script src="https://use.fontawesome.com/f8550a24d8.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+    <script src="https://code.highcharts.com/modules/solid-gauge.js"></script>
+
+    </script>
+</head>
+
+<body id="start">
+
+    <!-- _____________________________NAVBAR________________________ -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+
+            <!-- PARTIE GAUCHE -->
+
+            <ul class="nav navbar-nav">
+
+                <li><a class="navbarText" href="#home"> Home </a></li>
+
+                <li><a class="navbarText" href="#anchorAbout"> About </a></li>
+
+                <!-- DROPDOWN -->
+                <li class="dropdown">
+                    <button id="projetBTN" type="button" name="button"><a href="#carousel" class="dropdown-toggle navbarText" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Projet <span class="caret"></span></a></button>
+
+                    <ul class="dropdown-menu">
+
+                        <li class="text-center">Bootstrap</li>
+                        <br>
+                        <li><a href="pages/Bootstrap/Chall_1/index.html" target="_blank">Reproduction site</a></li>
+                        <br>
+                        <li><a href="pages/Bootstrap/Exo_1/index.html" target="_blank">Premier projet</a></li>
+
+                        <li role="separator" class="divider separator"></li>
+
+                        <li class="text-center">HTML & CSS</li>
+                        <br>
+                        <li><a href="pages/html-css/Site-Final/index.html" target="_blank">SIte fictif fleuriste</a></li>
+
+                        <li role="separator" class="divider"></li>
+
+                        <li class="text-center">Javascript</li>
+                        <br>
+                        <li><a href="pages/js/StoryTeller/index.html" target="_blank">StoryTeller</a></li>
+                        <br>
+                        <li><a href="pages/js/anim/index.html" target="_blank">Simulation gravité</a></li>
+                        <br>
+                        <li><a href="pages/js/déplacement/index.html" target="_blank">élement controlé avec touche du clavier</a></li>
+                    </ul>
+                </li>
+                <!-- FIN DROPDOWN -->
+                <li><a class="navbarText" href="#contact"> Contact </a></li>
+
+            </ul>
+
+            <!-- FIN PARTIE GAUCHE -->
+
+            <!-- PARTIE DROITE -->
+
+            <div id="swapCSS">
+                <ul class="nav navbar-right">
+                    <li><button type="button" name="button" id="Light">Light</button></li>
+                    <li><button type="button" name="button" id="Dark">Dark</button></li>
+                </ul>
+            </div>
+
+            <!-- FIN PARTIE DROITE -->
+
+        </div>
+    </nav>
+    <!-- _____________________________FIN NAVBAR____________________________ -->
+
+    <!-- _____________________________HOME__________________________________ -->
+    <div class="container">
+        <div class="row block-center text-center">
+            <div class="col-md-12 section" id="home">
+                <h2>Bienvenue sur mon portefolio. Passez une bonne visite.</h2>
+            </div>
+        </div>
+        <!-- _____________________________FIN HOME__________________________________ -->
+
+        <!-- _____________________________ABOUT__________________________________ -->
+        <div class="row" id="anchorAbout">
+            <div class="section" id="about">
+                <div class="row">
+                    <img class="image-responsive col-md-2 col-xs-12" src="images/moi.jpg" alt="Photo de moi" />
+                    <p class="col-md-10 col-xs-12">
+                        Je me présente je suis <strong>LEGRAND ALEDORIAN</strong>, apprenti <strong>web developper</strong>, j'ai commencé la codage en novembre 2016 par le biais de la formation Simplon où j'ai appris a utiliser : <strong>HTML/CSS, Javascript</strong>                        ainsi que <strong>Bootscrap</strong>. En dehors de ce domaine, je comprend et parle l'anglais. Je suis passioné par de nombreux domaines: <strong>les jeux videos, la musique, le cinéma, l'histoire et l'art.</strong>
+                    </p>
+
+                    <!-- BARRE COMPETENCE -->
+
+                    <button class="col-md-12 block-center" type="button" name="button" id="showMe">Compétences <i class="fa fa-arrow-circle-down" aria-hidden="true"></i></button>
+                </div>
+            </div>
+
+            <div class="row section" id="progress">
+              <div>
+                <div id="html-css" class='col-md-3' style="height:150px;"></div>
+                <div id="js" class='col-md-3' style="height:150px;"></div>
+                <div id="bootstrap" class='col-md-3' style="height:150px;"></div>
+                <div id="PHP" class='col-md-3' style="height:150px;"></div>
+              </div>
+            </div>
+
+            <!-- FIN BARRE COMPETENCE -->
+
+        </div>
+        <!-- _____________________________FIN ABOUT__________________________________ -->
+
+        <!-- _____________________________CAROUSSEL___________________________________ -->
+        <div class="row" id="carousel">
+
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+
+                    <div class="item active">
+                        <a href="pages/Bootstrap/Chall 1/index.html" target="_blank"><img class="imageCarousel" src="images/Bonsai-Reprod.png" alt="Image de la reproduction site Bonsai"></a>
+                        <div class="carousel-caption">
+                        </div>
+                        <h4 class="text-center">Reproduction du site Bonsai via bootstrap.</h4>
+                    </div>
+
+                    <div class="item">
+                        <a href="pages/Bootstrap/Exo 1/page/mockup3.html" target="_blank"><img class="imageCarousel" src="images/premier-projet.png" alt="image premier contact avec bootstrap"></a>
+                        <div class="carousel-caption">
+                        </div>
+                        <h4 class="text-center">Premier contact avec bootstrap.</h4>
+                    </div>
+
+                    <div class="item">
+                        <a href="pages/html-css/Site-Final/index.html" target="_blank"><img class="imageCarousel" src="images/site.png" alt="image site fictif pour fleuriste"></a>
+                        <div class="carousel-caption">
+                        </div>
+                        <h4 class="text-center">Site vitrine fleuriste fictive entièrement en HTML/CSS.</h4>
+
+                    </div>
+
+                    <div class="item">
+                        <a href="pages/js/StoryTeller/index.html" target="_blank"><img class="imageCarousel" src="images/storyteller.png" alt="Image du storyteller"></a>
+                        <div class="carousel-caption">
+                        </div>
+                        <h4 class="text-center">Storyteller fais en javascript.</h4>
+
+                    </div>
+
+                    <div class="item">
+                        <a href="pages/js/anim/index.html" target="_blank"><img class="imageCarousel" src="images/anim.png" alt="Image animation en JS"></a>
+                        <div class="carousel-caption">
+                        </div>
+                        <h4 class="text-center">Simulation de gravité via Javascript.</h4>
+
+                    </div>
+
+
+                    <div class="item">
+                        <a href="pages/js/déplacement/index.html" target="_blank"><img class="imageCarousel" src="images/move.png" alt="image Deplacement element via clavier">
+                            <div class="carousel-caption">
+                            </div>
+                            <h4 class="text-center">Déplacement avec les fléches du clavier grâce à Javascript.</h4>
+                    </div>
+
+
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <!-- _____________________________FIN CAROUSSEL___________________________________ -->
+
+        <!-- _____________________________CONTACT_________________________________________ -->
+        <div class="section" id="contact">
+            <div class="row">
+                <!-- FORMULAIRE -->
+                <div class="col-md-6" id="form">
+                    <div class="Name">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder="Entrer votre nom">
+                    </div>
+                    <br>
+                    <div class="Phone">
+                        <i class="fa fa-phone" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder="Entrer votre n° de telephone">
+                    </div>
+                    <br>
+                    <div class="Mail  ">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="text" class="form-control" placeholder="Entrer votre adresse mail">
+                    </div>
+                    <br>
+                    <div class="Message">
+                        <i class="fa fa-comment" aria-hidden="true"></i>
+                        <textarea class="form-control" rows="8" placeholder="Entrer votre message."></textarea>
+                    </div>
+                    <br>
+                    <button id="formBTN" type="button" name="button"><i class="fa fa-paper-plane fa-2x" aria-hidden="true"></i></button>
+                </div>
+
+                <!-- FIN FORMULAIRE -->
+
+                <!-- CONTACT -->
+
+                <div class="col-md-6" id="infoContact">
+                    <ul>
+                        <li>Tel : 07 70 45 56 05</li>
+                        <li>Mail : aledorianlegrand@gmail.com</li>
+                        <li>Adresse : 7 place des Capucins <br> 62200 Boulogne sur mer</li>
+                    </ul>
+                    <!-- <div id="simplon">
+                        <img src="images/simplon.png" alt="Logo Simplon Boulogne" />
+                    </div> -->
+                </div>
+
+                <!-- FIN CONTACT -->
+
+            </div>
+        </div>
+
+    </div>
+    <!-- _____________________________FIN CONTACT_________________________________________ -->
+
+    <footer>
+        <div class="col-md-12 text-center" id="bandeauFooter">
+            <p id="textFooter">©copyright A. LEGRAND</p>
+            <div>
+                <a href="" target="_blank">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <a href="" target="_blank">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <button id="fixedbutton" type="button" name="button">
+      <a href="#start">
+          <i class="fa fa-chevron-up" aria-hidden="true"></i>
+      </a>
+    </button>
+
+</body>
+<script src="http://code.jquery.com/color/jquery.color-2.1.2.min.js" integrity="sha256-H28SdxWrZ387Ldn0qogCzFiUDDxfPiNIyJX7BECQkDE=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/Bootstrap-Portfolio.js"></script>
+
+</html>
